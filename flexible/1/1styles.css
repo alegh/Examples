@@ -1,0 +1,151 @@
+﻿html {
+background: black;
+position: relative;
+border: solid 3px white;
+margin: 0;
+padding: 0;
+font: bold 16px/16pt  sans-serif;
+color: white;
+}
+
+body {
+position: absolute;
+margin: 10% 2%;
+width: 95%;
+border: solid 1px white;
+background: linear-gradient(#838383, #000000);  /* serenkiy background: linear-gradient(#9da1a2, #dee5e7) */
+border-radius: 5%;         /* ne krasivie ugli*/                     
+box-shadow: 0 1px 30px 0 white;    /* ne pashit*/
+}
+
+header, content, footer {
+position: relative;
+margin: 2%;
+text-align: center;
+}
+
+ul, li {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav ul li, footer ul li , #logo{             
+display: block;
+float: left;
+border: none;
+margin: 0;
+padding: 0;
+}
+
+nav {
+right: 20px;
+float: right;
+}
+
+footer ul li {
+margin: 10px;
+padding: 2px;
+}
+
+#logo {
+margin: 2%;
+
+}
+#logo img {
+width:40%;
+border-radius:15%;
+}
+a, a:link {
+color: #51a4d9;
+text-decoration: none;
+}
+
+a:active {
+color: red;
+}
+
+header nav ul li a {
+position: relative;
+color: black;
+display: block;
+margin: 5px;
+padding: 10px;
+border: solid 10px white;
+width: 75px;
+height: 30px;
+overflow: hidden;
+}
+
+header nav ul li a:hover {   /* ne pashit*/
+color: white;
+background: #cccccc;
+padding: 0 25px 75px 25px;
+margin: -10px;
+}
+
+.links1, .links2, .links3 {
+border: solid 1px white;
+width: 75px;
+overflow: hidden;
+/*position: absolute;*/
+bottom: 5px;
+margin: 0;
+}
+
+.links2 {
+
+height: 100px;
+}
+
+.links3 {
+
+}
+
+.number, #number1, #number2, #number3  {
+display: block;
+text-align: center;
+
+}
+
+div.number {
+display: inline-block;
+font-size: 150%;
+}
+
+#number1, #number2, #number3 {
+width: 75px;
+height: 40px;
+border: solid 1px bronze;
+} 
+
+#number1 {
+height: 50px;
+border-color: gold;
+}
+
+#gold {
+color: gold;
+}
+
+#bronze {
+color: bronze;
+}
+
+#silver {
+color: silver;
+}
+
+#number3 {
+border-color: silver;
+height: 30px;
+}
+
+#lichilnik {
+background: #cccccc;
+width: 75px;
+height: 75px;
+display: block;
+border: solid 1px white;
+}
+

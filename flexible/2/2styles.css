@@ -1,0 +1,140 @@
+html{
+background-color:yellow;
+font-family: 'Times New Roman', Times, serif;
+}
+body{
+background-color: navy; 
+color: orange;
+display: block;
+width: 100%;
+margin: 0; 
+padding: 0;
+position:absolute;
+}
+header{
+/*background-color: grey; 
+height:100px;*/
+width:100%;
+text-align:center;
+position:relative;
+margin:0;
+padding:0;
+}
+h1{
+margin:1%;
+padding:1%;
+}
+aside{
+position: fixed;
+text-align: right;
+top: 2%;
+right: 2%;
+z-index:1;
+}
+
+
+ul {
+list-style:none;
+margin:0;
+padding:0;
+color: #ededed;
+font-size: 150%;
+font-family: 'Times New Roman', Times, serif;
+text-shadow: 0 0 10px  black;
+}
+ul a{
+text-decoration:none;
+color:white;
+}
+.m3{
+display:none;
+}
+.m1:hover .m2{
+color: #ededed;
+font-size: 150%;
+font-family: 'Times New Roman', Times, serif;
+text-shadow: 0 0 10px  black;
+box-shadow:0 0 2px 2px #ccc;
+height:20px;
+border-radius:10px 10px 0 0;
+text-decoration:none;
+background-color:navy;
+opacity: 0.8;
+}
+.m1:hover .m3 {
+display:block;
+background-color:navy;
+opacity: 0.8;
+}
+.m3 {
+list-style:none;
+padding:5px;
+border-radius:2px;
+box-shadow:0 0 2px 2px #ccc;
+margin:7px  -5px;
+}
+.m3 li {
+padding-bottom:3px;
+}
+.m3 a {
+font-size: 150%;
+font-family: 'Times New Roman', Times, serif;
+text-shadow: 0 0 10px  black;  
+color:yellow;
+text-decoration:none;
+}
+.m3 a:hover {
+color:blue;
+background-color:yellow;
+display:block;
+}
+
+
+section{
+background-color: orange; 
+position: relative;
+}
+section div{
+margin:0px;
+padding:0px;
+border:2px solid orange;
+}
+img{
+width:100%;
+}
+#first, #second, #third, #forth, #fifth, #sixth {
+color: #ededed;
+font-size: 700%;
+font-family: 'Times New Roman', Times, serif;
+position: absolute;
+text-shadow: 0 0 10px  black;
+}
+
+
+footer{
+background-color: black; 
+width:100%;
+position: relative;
+}
+footer div{
+width:100%;
+height:3%;
+display:auto;
+text-align:center;
+}
+#info a:link {
+text-decoration:underline;
+}
+#info a:hover  {
+color:orange; 
+text-decoration:none;
+}
+#info a:active {
+color:red; 
+text-decoration:underline;
+}
+#info a:visited {
+text-decoration:none;
+}
+
+
