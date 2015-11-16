@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Static site</title>
+		<style>
+		
+			body {
+			background-image:url(main-back.png);
+			background-color:;
+			color:white;
+			}
+			.main {
+			//background-image:url(back2.png);
+			//background-color:black;
+			
+			height:1024px;
+			margin:auto;
+			margin-top:3%;
+			margin-bottom:3%;
+			text-align:center;
+			padding:0;
+			position:relative;
+			width:1024px;
+			
+			}
+			#first, #second, #third, #forth, #fifth, #sixth {
+			display:block;
+			height:800px;
+			width:800px;
+			margin:0;
+			left:112px;
+			top:112px;
+			border:1px solid white;
+			background-color:grey;
+			padding:0;
+			position:absolute;
+			z-index:auto;
+			}
+			#first {
+			background-image:url(back2.png);
+			background-color:#ff9933;
+			transform: rotate(120deg);
+			}
+			#second {
+			background-image:url(back.gif);
+			background-color:yellow;
+			transform: rotate(105deg);
+			}
+			#third {
+			background-image:url(back2.png);
+			background-color:#006600;
+			transform: rotate(90deg);
+			}
+			#forth {
+			background-image:url(back2.png);
+			background-color:#336699;
+			transform: rotate(75deg);
+			}
+			#fifth {
+			background-image:url(back2.png);
+			background-color:#330066;
+			transform: rotate(60deg);
+			}
+			#sixth {
+			
+			background-image:url(back2.png);
+			background-color:#993333;
+			
+			transform: rotate(45deg);
+			}
+			#first:hover {
+			z-index:10;
+			transition:1s;
+			}
+			#second:hover {
+			z-index:10;
+			transition:1s;
+			}
+			#third:hover {
+			z-index:10;
+			transition:1s;
+			}
+			#forth:hover {
+			z-index:10;
+			transition:1s;
+			}
+			#fifth:hover {
+			z-index:10;
+			transition:1s;
+			}
+			#sixth:hover {
+			z-index:10;
+			transition:1s;
+			}
+			.inner {
+			position:absolute;
+			}
+			.in1 {
+			transform: rotate(-45deg);
+			}
+			.in2 {
+			transform: rotate(-60deg);
+			}
+			.in3 {
+			transform: rotate(-75deg);
+			}
+			.in4 {
+			transform: rotate(-90deg);
+			}
+			.in5 {
+			transform: rotate(-105deg);
+			}
+			.in6 {
+			transform: rotate(-120deg);
+			}
+			#a1 {
+			top:30px;
+			left:10px;
+			}
+			#a2 {
+			top:30px;
+			right:10px;
+			}
+			#a3 {
+			bottom:30px;
+			right:10px;
+			}
+			#a4 {
+			bottom:30px;
+			left:10px;
+			}
+			a{
+			font-size:125%;
+			color:white;
+			padding:25px;
+			border:1px solid white;
+			border-radius:50%;
+			text-decoration:none;
+			}
+			a:hover {
+			background-color:#666666;
+			text-decoration:underline;
+			font-size:130%;
+			}
+			a:visited{
+			color:black;
+			
+			}
+			a:active {
+			background-color:white;
+			color:red;
+			text-decoration:none;
+			}
+			
+			.content {
+			position:absolute;
+			top:250px;
+			right:100px;
+			font-size:125%;
+			width:600px;
+			height:300px;
+			
+			background-color:grey;
+			opacity:0.7;
+			}
+			.context{
+			opacity:1;
+			display:block;
+			position:relative;
+			margin:auto;
+			margin-top:5%;
+			font-size:200%;
+			
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main" >main
+			<div id="first">
+				<div class="inner in6" id="a1"><a href="#">21</a></div>
+				<div class="inner in6" id="a2"><a href="#">22</a></div>
+				<div class="inner in6" id="a3"><a href="#">23</a></div>
+				<div class="inner in6" id="a4"><a href="#">24</a></div>
+				<div class="content in6"><span class="context">context</span></div>
+			</div>
+			<div id="second">
+				<div class="inner in5" id="a1"><a href="#">17</a></div>
+				<div class="inner in5" id="a2"><a href="#">18</a></div>
+				<div class="inner in5" id="a3"><a href="#">19</a></div>
+				<div class="inner in5" id="a4"><a href="#">20</a></div>
+				<div class="content in5">content</div>
+			</div>
+			<div id="third">
+				<div class="inner in4" id="a1"><a href="#">13</a></div>
+				<div class="inner in4" id="a2"><a href="#">14</a></div>
+				<div class="inner in4" id="a3"><a href="#">15</a></div>
+				<div class="inner in4" id="a4"><a href="#">16</a></div>
+				<div class="content in4">content</div>
+			</div>
+			<div id="forth">
+				<div class="inner in3" id="a1"><a href="#">09</a></div>
+				<div class="inner in3" id="a2"><a href="#">10</a></div>
+				<div class="inner in3" id="a3"><a href="#">11</a></div>
+				<div class="inner in3" id="a4"><a href="#">12</a></div>
+				<div class="content in3">content</div>
+			</div>
+			<div id="fifth">
+				<div class="inner in2" id="a1"><a href="#">05</a></div>
+				<div class="inner in2" id="a2"><a href="#">06</a></div>
+				<div class="inner in2" id="a3"><a href="#">07</a></div>
+				<div class="inner in2" id="a4"><a href="#">08</a></div>
+				<div class="content in2">content</div>
+			</div>
+			<div id="sixth">
+				<div class="inner in1" id="a1"><a href="#">01</a></div>
+				<div class="inner in1" id="a2"><a href="#">02</a></div>
+				<div class="inner in1" id="a3"><a href="#">03</a></div>
+				<div class="inner in1" id="a4"><a href="#">04</a></div>
+				<div class="content in1">content</div>
+			</div>
+		</div>
+	</body>
+</html>
